@@ -1,10 +1,11 @@
 const express=require('express')
 const app=express()
+const pin=process.env.PORT || 8000
 app.get('/',(req,res)=>
 {
     res.send("hi");
 })
-app.listen(8000,'127.0.0.1',()=>
+app.listen(pin,'127.0.0.1',()=>
 {
     console.log("server is listening")
 })
