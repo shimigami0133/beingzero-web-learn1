@@ -2,6 +2,9 @@ const express=require('express')
 const app=express()
 const pin=process.env.PORT || 3000
 app.use(express.static(__dirname+"/static"))
+app.get('/',(req,res)=>{
+    res.send("hey");
+})
 app.get('/resume',(req,res)=>
 {
     res.sendFile(__dirname+"/static/index.html")
