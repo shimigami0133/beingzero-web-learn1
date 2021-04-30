@@ -1,21 +1,30 @@
 body {
   overflow: auto;
+  border: 2px solid black;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.c p {
+  display: inline;
+}
+.c {
+  border-bottom: 2px solid black;
 }
 h1 {
   text-align: center;
 }
 .contact {
   position: relative;
-  left: 40%;
+  left: 35%;
 }
 a {
   text-decoration: none;
   margin: 20px;
 }
-
 .co {
   margin-top: 50px;
   margin-left: 25px;
+  margin-bottom: 10px;
 }
 .ts {
   margin-top: 30px;
@@ -31,6 +40,11 @@ a {
 .q {
   margin-left: 25px;
   margin-top: 30px;
+  margin-bottom: 10px;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
 }
 td,
 th {
@@ -39,5 +53,5 @@ th {
   padding: 8px;
 }
 .tb {
-  margin-left: 60px;
+  margin-left: 40px;
 }
