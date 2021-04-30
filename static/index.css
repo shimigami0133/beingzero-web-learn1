@@ -45,3 +45,18 @@ button {
   margin-top: 30px;
   text-align: center;
 }
+.navbar {
+  margin-top: 45px;
+  margin-left: 385px;
+}
+.navbar li {
+  font-size: 24px;
+  display: inline;
+  list-style: none;
+  color: white;
+  margin: 15px;
+}
+
+.navbar li:hover {
+  color: red;
+}
