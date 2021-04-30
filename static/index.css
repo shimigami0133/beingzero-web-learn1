@@ -1,3 +1,40 @@
+body {
+  overflow: auto;
+}
 h1 {
-  color: blue;
+  text-align: center;
+}
+.contact {
+  position: relative;
+  left: 40%;
+}
+a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+.co {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.ts {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.we {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.we li {
+  list-style: none;
+}
+.q {
+  margin-left: 25px;
+  margin-top: 30px;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
