@@ -1,6 +1,6 @@
 const express=require('express')
 const app=express()
-const pin=process.env.PORT || 8000
+const pin=process.env.PORT || 3000
 app.get('/',(req,res)=>
 {
     res.send("hi");
