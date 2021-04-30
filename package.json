@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shimigami0133/beingzero-web-learn1/issues"
   },
-  "homepage": "https://github.com/shimigami0133/beingzero-web-learn1#readme"
+  "homepage": "https://github.com/shimigami0133/beingzero-web-learn1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
