@@ -104,36 +104,11 @@ body {
   display: inline;
 }
 .l a {
+  color: blue;
   font-size: 12px;
   margin: 5px;
   text-decoration: none;
 }
-.f1 {
-  background-color: #f8f9fa;
-  height: 40px;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.54);
-  padding: 5px;
-  position: relative;
-  top: 390px;
-}
-.f1 p {
-  margin-left: 55px;
-}
-.f2 {
-  background-color: #f8f9fa;
-  height: 40px;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.54);
-  padding: 5px;
-  position: relative;
-  top: 390px;
-  border: 1px solid rgb(214, 205, 205);
-}
-.f2 p {
-  margin-left: 55px;
-}
-.f2 a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.54);
+.l a:hover {
+  text-decoration: underline;
 }
