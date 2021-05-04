@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  font-family: arial, sans-serif;
+}
+.navbar {
+  position: relative;
+  top: 22px;
+  left: 85%;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.main {
+  position: relative;
+  top: 60px;
+  left: 630px;
+  background-image: url("/g.png");
+  height: 100px;
+  width: 1000px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.search {
+  display: flex;
+  position: relative;
+  top: 80px;
+  left: 510px;
+  width: 550px;
+  border: 1px solid #dfe1e5;
+  box-shadow: 10px black;
+  border-radius: 30px;
+}
+.imgs {
+  background-image: url("/k.webp");
+  height: 20px;
+  width: 20px;
+  margin-top: 6px;
+  margin-left: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.search input[type="text"] {
+  margin-left: 22px;
+  margin-top: 0px;
+  border: none;
+  width: 400px;
+  height: 35px;
+  outline: none;
+}
+.v {
+  background-image: url("/s.png");
+  height: 25px;
+  width: 25px;
+  margin-top: 6px;
+  margin-left: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.b {
+  position: relative;
+  top: 120px;
+  left: 620px;
+}
+#b1 {
+  margin-right: 30px;
+}
+#b1,
+#b2 {
+  font-size: 14px;
+  height: 40px;
+  width: 120px;
+  background-color: #f8f9fa;
+  border: none;
+  border: 1px solid #70757a;
+}
+#b1:hover,
+#b2:hover {
+  border: none;
+  border-radius: 5px;
+}
+.l {
+  position: relative;
+  left: 520px;
+  top: 150px;
+}
+
+.l p {
+  font-size: 12px;
+  color: black;
+  display: inline;
+}
+.l a {
+  font-size: 12px;
+  margin: 5px;
+  text-decoration: none;
+}
+.f1 {
+  background-color: #f8f9fa;
+  height: 40px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 5px;
+  position: relative;
+  top: 390px;
+}
+.f1 p {
+  margin-left: 55px;
+}
+.f2 {
+  background-color: #f8f9fa;
+  height: 40px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 5px;
+  position: relative;
+  top: 390px;
+  border: 1px solid rgb(214, 205, 205);
+}
+.f2 p {
+  margin-left: 55px;
+}
+.f2 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}

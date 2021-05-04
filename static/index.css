@@ -15,6 +15,8 @@ body {
 }
 .start {
   display: flex;
+  position: sticky;
+  top: 0px;
   background-color: (254, 239, 221);
 }
 .start h1 {
@@ -54,7 +56,7 @@ button {
   display: inline;
   list-style: none;
   color: white;
-  margin: 15px;
+  margin: 12px;
 }
 .navbar li a:hover {
   color: red;
@@ -62,179 +64,8 @@ button {
 .active {
   color: red;
 }
-.outer {
-  margin-top: 50px;
-}
-.row1 {
-  height: 100px;
-  width: 110px;
-  margin-top: 5px;
-  margin-left: 50px;
-  background-image: url("/3534920.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 50px;
-  border: 3px solid white;
-}
-.card1 {
-  width: 250px;
-  color: white;
-  text-align: center;
-  margin-left: 160px;
-  border-radius: 50px;
-}
-.outer {
-  display: flex;
-}
-.row2 {
-  height: 100px;
-  width: 110px;
-  margin-top: 5px;
-  margin-left: 50px;
-  background-image: url("rcb.jfif");
-  background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 50px;
-  border: 3px solid white;
-}
-.card2 {
-  width: 250px;
-  color: white;
-  text-align: center;
-  margin: 10px;
-  border-radius: 50px;
-}
 
-.row3 {
-  height: 100px;
-  width: 110px;
-  margin-top: 5px;
-  margin-left: 50px;
-  background-image: url("csk.jfif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 50px;
-  border: 3px solid white;
-}
-.card3 {
-  width: 250px;
+.main p {
+  font-size: 29px;
   color: white;
-  text-align: center;
-  margin: 10px;
-  border-radius: 50px;
-}
-
-.row4 {
-  height: 100px;
-  width: 110px;
-  margin-top: 5px;
-  margin-left: 50px;
-  background-image: url("rr.jfif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 50px;
-  border: 3px solid white;
-}
-.card4 {
-  width: 250px;
-  color: white;
-  text-align: center;
-  margin: 10px;
-  border-radius: 50px;
-}
-.outer1 {
-  display: flex;
-  margin-top: 30px;
-}
-.row5 {
-  height: 100px;
-  width: 110px;
-  margin-top: 5px;
-  margin-left: 50px;
-  background-image: url("p.jfif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 50px;
-  border: 3px solid white;
-}
-.card5 {
-  width: 250px;
-  color: white;
-  text-align: center;
-  margin-left: 160px;
-  border-radius: 50px;
-}
-
-.row6 {
-  height: 100px;
-  width: 110px;
-  margin-top: 5px;
-  margin-left: 50px;
-  background-image: url("mm.jfif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 50px;
-  border: 3px solid white;
-}
-.card6 {
-  width: 250px;
-  color: white;
-  text-align: center;
-  margin-left: 10px;
-  border-radius: 50px;
-}
-
-.row7 {
-  height: 100px;
-  width: 110px;
-  margin-top: 5px;
-  margin-left: 50px;
-  background-image: url("kk.jfif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 50px;
-  border: 3px solid white;
-}
-.card7 {
-  width: 250px;
-  color: white;
-  text-align: center;
-  margin-left: 10px;
-  border-radius: 50px;
-}
-
-.row8 {
-  height: 100px;
-  width: 110px;
-  margin-top: 5px;
-  margin-left: 50px;
-  background-image: url("dd.jfif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 50px;
-  border: 3px solid white;
-}
-.card8 {
-  width: 250px;
-  color: white;
-  text-align: center;
-  margin-left: 10px;
-  border-radius: 50px;
-}
-.outer h1:hover {
-  color: red;
-}
-.outer1 h1:hover {
-  color: red;
-}
-.login {
-  padding: 5px;
-  border-radius: 10px;
-  width: 100px;
-  height: 60px;
-  border: 1px solid red;
-  margin-left: 650px;
-}
-.login a {
-  margin-left: 5px;
 }
