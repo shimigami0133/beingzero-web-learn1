@@ -1,0 +1,17 @@
+body{
+    --color:rgb(0,0,0);
+}
+.main {
+  position: relative;
+  background-color: var(--color);
+  height: 100px;
+  width: 400px;
+  left: 35%;
+  top: 300px;
+}
+.c {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 300px;
+}

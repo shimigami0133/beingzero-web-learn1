@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="color.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Be Aware Of Your Soul</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='color.css'>
+    
+</head>
+<body>
+<div class="main">
+    <p id="tr"></p>
+    
+    <p id="tg"></p>
+
+    <p id="tb"></p>
+</div>
+<div class="c">
+<div class="c1"><h4>Red</h4>
+    <input type="range" id ="r" min="0" max="255" value="0">
+</div>
+<div class="c2"><h4>Green</h4>
+    <input type="range" id="g" min="0" max="255" value="0">
+</div>
+<div class="c3"><h4>Blue</h4>
+    <input type="range" id="b" min="0" max="255" value="0">
+</div>
+</div>
+<script>
+    var r=document.querySelector("#r");
+    var g=document.querySelector("#g");
+    var b=document.querySelector("#b");
+    r.oninput=()=>{
+    document.querySelector(".main").style.background="rgb"+"("+r.value+","+g.value+","+b.value+")";
+    document.querySelector("#tr").innerHTML=r.value;
+    document.querySelector("#tg").innerHTML=g.value;
+    document.querySelector("#tb").innerHTML=b.value;
+}
+g.oninput=()=>{
+    document.querySelector(".main").style.background="rgb"+"("+r.value+","+g.value+","+b.value+")";
+    document.querySelector("#tr").innerHTML=r.value;
+    document.querySelector("#tg").innerHTML=g.value;
+    document.querySelector("#tb").innerHTML=b.value;
+}
+b.oninput=()=>{
+    document.querySelector(".main").style.background="rgb"+"("+r.value+","+g.value+","+b.value+")";
+    document.querySelector("#tr").innerHTML=r.value;
+    document.querySelector("#tg").innerHTML=g.value;
+    document.querySelector("#tb").innerHTML=b.value;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  background-color: #000000;
+  color: white;
+  margin: 0px;
+}
+.navbar1 {
+  height: 50px;
+  background-color: rgba(22, 22, 23, 0.8);
+  padding-left: 180px;
+  padding-right: 160px;
+}
+.navbar1 ul {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar1 li {
+  margin-top: 12px;
+}
+.navbar1 ul li a {
+  margin-top: 15px;
+}
+li a {
+  text-decoration: none;
+  color: grey;
+}
+li a:hover {
+  color: white;
+}
+li {
+  list-style: none;
+}
+.i1 {
+  height: 30px;
+  width: 50px;
+}
+.i2 {
+  width: 30px;
+  height: 30px;
+}
+.i3 {
+  height: 36px;
+  width: 50px;
+}
+.navbar2 {
+  display: flex;
+}
+.t {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+.t a {
+  text-decoration: none;
+  color: white;
+}
+.navbar2 {
+  position: sticky;
+  top: 0%;
+}
+.navbar2 ul {
+  margin-left: 600px;
+  display: flex;
+  width: 100%;
+  margin-right: 180px;
+  justify-content: space-around;
+}
+.navbar2 li {
+  margin-top: 12px;
+}
+.navbar2 li button {
+  height: 20px;
+  width: 50px;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+}
+.navbar2 li button:hover {
+  background-color: rgb(96, 96, 255);
+}
+.navbar2 li button a {
+  color: white;
+}
+.l {
+  z-index: 1;
+  background-image: url("/a.jfif");
+  height: 1000px;
+  width: 100%;
+}
