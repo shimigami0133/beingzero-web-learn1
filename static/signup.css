@@ -71,7 +71,7 @@ input [type="text"] {
   margin-top: 20px;
 }
 input[type="submit"] {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 80px;
   height: 60px;
   width: 160px;
