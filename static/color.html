@@ -11,11 +11,7 @@
 </head>
 <body>
 <div class="main">
-    <p id="tr"></p>
-    
-    <p id="tg"></p>
-
-    <p id="tb"></p>
+    <p id="o">rgb(0,0,0)</p>
 </div>
 <div class="c">
 <div class="c1"><h4>Red</h4>
@@ -34,21 +30,15 @@
     var b=document.querySelector("#b");
     r.oninput=()=>{
     document.querySelector(".main").style.background="rgb"+"("+r.value+","+g.value+","+b.value+")";
-    document.querySelector("#tr").innerHTML=r.value;
-    document.querySelector("#tg").innerHTML=g.value;
-    document.querySelector("#tb").innerHTML=b.value;
+    document.querySelector("#o").innerHTML="rgb"+"("+r.value+","+g.value+","+b.value+")";
 }
 g.oninput=()=>{
     document.querySelector(".main").style.background="rgb"+"("+r.value+","+g.value+","+b.value+")";
-    document.querySelector("#tr").innerHTML=r.value;
-    document.querySelector("#tg").innerHTML=g.value;
-    document.querySelector("#tb").innerHTML=b.value;
+    document.querySelector("#o").innerHTML="rgb"+"("+r.value+","+g.value+","+b.value+")";
 }
 b.oninput=()=>{
     document.querySelector(".main").style.background="rgb"+"("+r.value+","+g.value+","+b.value+")";
-    document.querySelector("#tr").innerHTML=r.value;
-    document.querySelector("#tg").innerHTML=g.value;
-    document.querySelector("#tb").innerHTML=b.value;
+    document.querySelector("#o").innerHTML="rgb"+"("+r.value+","+g.value+","+b.value+")";
 }
 </script>
 </body>

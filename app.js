@@ -2,6 +2,12 @@ const express=require('express')
 const app=express()
 const pin=process.env.PORT || 8000
 app.get('/',(req,res)=>{
+    res.sendFile(__dirname+"/static/login.html")
+})
+app.get('/signup',(req,res)=>{
+    res.sendFile(__dirname+"/static/signup.html")
+})
+app.get('/index',(req,res)=>{
     res.sendFile(__dirname+"/static/index.html")
 })
 app.get('/color',(req,res)=>{
